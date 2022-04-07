@@ -1,0 +1,27 @@
+GET http://localhost:5000/api/posts
+
+###
+POST http://localhost:5000/api/posts
+
+Content-Type: application/application/json
+
+{
+    "title":"We Become What We think About",
+    "content":"If you think in positive term you'll get positive results versversa"
+}
+
+###
+GET http://localhost:5000/api/posts/624eba7cfeca8a313ef01f35
+
+
+###
+PATCH  http://localhost:5000/api/posts/624ebad2feca8a313ef01f3a
+
+Content-Type: application/application/json
+
+{
+    "title":"We Become What We think About",
+    "content":"If you think in positive term you'll get positive results versversa"
+}
+###
+DELETE   http://localhost:5000/api/posts/624ebad2feca8a313ef01f3a
